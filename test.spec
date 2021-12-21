@@ -26,7 +26,6 @@ echo "Mesuring the downloading time from cache.ruby-lang.org."
 time wget --quiet https://cache.ruby-lang.org/pub/ruby/3.0/ruby-3.0.3.tar.gz
 echo "Mesuring the downloading time from rubygems.org."
 time wget --quiet https://rubygems.org/downloads/byebug-11.1.3.gem
-traceroute rubygems.org
 
 %files
 %{_bindir}/test
